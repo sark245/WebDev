@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            Register
+        </title>
+    </head>
+    <body bgcolor="#B2E1EA">
+        <center><h1>
+            Registration Form
+        </h1>
+        </center>
+        <script language = "javascript">
+            function validate(){
+                var flag = 1;
+                if(document.myform.id.value == "" || document.myform.value==""){
+                    flag = 0;
+                }
+                if(flag == 1){
+                    alert("Valid Input");
+                }else{
+                    alert("Invalid Input");
+                    document.myform.focus();
+                }
+            }
+        </script>
+        <center>
+            <form name=”myform”>
+                <div >
+                    Name:   <input type=”text” name=”name”><br><br>
+                    Username:   <input type=”password” name=”id”><br> <br>
+                    Password: <input type=”password” name=”pwd”>
+                    </pre><br><br>
+                </div>
+                <br><br>
+                <div align=”center”>
+                    <button onclick="validate()">Submit</button>
+                    
+            </form>
+        </center>
+    </body>
+</html>
