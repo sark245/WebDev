@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+}
+
+  h2{
+    color : blue;
+    font-family: Lobster, monospace;
+  }
+  .red-text{
+      color : red;
+  }
+  p{
+      font-size : 20px;
+      font-family : monospace;
+  }
+  .larger-image{
+      width: 600px;
+  }
+  .thin-yellow-border{
+      border-color: yellow;
+      border-width: 5px;
+      border-style: solid;
+      border-radius: 50%;
+  }
+  .silver-background{
+      background-color: silver;
+  }
